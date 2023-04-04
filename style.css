@@ -1,0 +1,100 @@
+/* Reset des styles de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style de base pour le corps de la page */
+body {
+  .button 
+  display: inline-block;
+  background-color: #007AFF;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+/* Style de base pour les en-têtes */
+h1, h2 {
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  margin: 40px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+
+/* Style pour la barre de navigation */
+
+nav {
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #666;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+  color: #333;
+  border-bottom-color: #333;
+}
+
+ .button {
+  display: inline-block;
+  background-color: #007AFF;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #0058FF;
+}
+
+/* Styles for the main section */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+}
+
